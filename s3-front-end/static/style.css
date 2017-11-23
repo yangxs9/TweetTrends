@@ -1,0 +1,38 @@
+html, body, .box {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    display: flex;
+    display: -webkit-flex;
+}
+
+#app {
+    flex-direction: row;
+}
+
+#panel {
+    flex-direction: column;
+    flex-shrink: 0;
+    width: 300px;
+}
+
+#searchNav {
+    flex-shrink: 0;
+}
+
+#geo-input {
+    padding: 10px;
+}
+
+#tweet-list {
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+#map {
+    height: 100%;
+    flex-grow: 1;
+}

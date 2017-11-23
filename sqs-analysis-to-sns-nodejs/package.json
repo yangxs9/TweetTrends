@@ -1,0 +1,17 @@
+{
+  "name": "twitter-streaming-sqs-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Xinsong Yang <yangxinsong93@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "2.150.0",
+    "axios": "0.17.1",
+    "sqs-consumer": "3.8.0",
+    "twit": "2.2.9"
+  }
+}
